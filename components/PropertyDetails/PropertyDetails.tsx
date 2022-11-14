@@ -26,38 +26,34 @@ function PropertyDetails() {
           </div>
         </div>
       </div>
-      <div className="px-10 flex gap-2">
+      <div className="px-10 flex gap-2 mt-5">
         <div className="details_card flex flex-col gap-3">
           <h3 className="m-0 p-0 font-bold text-2xl">Gallery</h3>
-          <Image src={"/b-12.jpg"} alt={"logo"} width={500} height={500} />
+          <Image src={"/b-12.jpg"} alt={"logo"} width={500} height={400} />
         </div>
         <div>
           <div className="flex flex-col gap-4">
             <div>
               <PropertyAll />
             </div>
-            <div className="details_card flex flex-col gap-1">
-            <h3 className="m-0 p-0 font-bold text-2xl">Description</h3>
-              <p className="text-light_text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi,
-                doloribus inventore assumenda placeat optio ipsam aperiam, earum
-                sequi delectus veritatis corporis fugit dicta aut itaque harum
-                exercitationem nostrum. Architecto accusamus deleniti, amet,
-                illum tempore impedit facere eveniet velit quam voluptates
-                expedita saepe, aliquid sint asperiores obcaecati minus sed sunt
-                nemo delectus corporis quidem. Earum sed adipisci in aperiam
-                totam maiores doloremque explicabo alias velit quisquam nisi
-                veniam perferendis doloribus, nihil fugiat debitis! Nobis
-                ratione suscipit quas omnis, velit molestiae aut blanditiis
-                quisquam voluptate, consequuntur labore assumenda eum, corporis
-                libero ipsa quaerat deserunt molestias. Recusandae et incidunt,
-                doloremque hic in reiciendis.
-              </p>
-            </div>
             <div>
               <button className="category_tag">Buy Now</button>
             </div>
           </div>
+        </div>
+      </div>
+      <div className="px-10 flex gap-2 mt-7">
+        <div className="details_card">
+          <h3 className="m-0 p-0 font-bold text-2xl before:border-b-2 border-black">Description</h3>
+          <p className="text-light_text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Reprehenderit quidem molestias veniam sapiente, consequatur laborum
+            eius nesciunt. Fugit neque perferendis, nobis laudantium provident
+            numquam voluptates voluptas ipsum dolor delectus harum ut recusandae
+            necessitatibus fugiat ipsa ab molestias illum nihil porro inventore
+            unde cupiditate? Voluptate quam illo cupiditate nihil voluptatem
+            ipsa?
+          </p>
         </div>
       </div>
     </div>

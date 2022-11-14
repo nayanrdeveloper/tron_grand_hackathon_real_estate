@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 interface nevItemStruct {
@@ -5,9 +6,11 @@ interface nevItemStruct {
   to: string;
 }
 function NavItem(navItem: nevItemStruct) {
-  return <div className="nav_hover">
-    {navItem.name}
-  </div>;
+  return (
+    <Link href={navItem.to}>
+      <div className="nav_hover">{navItem.name}</div>
+    </Link>
+  );
 }
 
 export default NavItem;
